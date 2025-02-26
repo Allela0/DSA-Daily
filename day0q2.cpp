@@ -17,3 +17,8 @@ public:
         return false;
     }
 };
+
+
+//Approach: sort the vector nums and then check if the neighbouring elements are equal or not
+//TC: O(nlogn)
+//SC: O(logn)
