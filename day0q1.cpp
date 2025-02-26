@@ -18,3 +18,7 @@ public:
         return ans;
     }
 };
+
+// Approach: initialize a vector with double with size of nums then add the numbers in nums to ans through a for loop twice
+//TC: O(n)
+//SC: O(n)
