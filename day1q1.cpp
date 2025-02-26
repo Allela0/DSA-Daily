@@ -28,3 +28,8 @@ public:
         return false;
     }
 };
+
+
+//Approach: check if the number if devisible by 2, 3 or 5 if yes, repeatedly divide it by whichever number it is divisible by until its 1 or cannot be divided further
+//TC: O(logn)
+//SC: O(1)
