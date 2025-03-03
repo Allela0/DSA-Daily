@@ -1,4 +1,4 @@
-https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1
+//problem: https://www.geeksforgeeks.org/problems/good-or-bad-string1417/1
 
 class Solution {
   public:
