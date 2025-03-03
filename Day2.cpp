@@ -28,6 +28,6 @@ class Solution {
 
 //TC : O(N)
 //SC : O(1)
-/*Traverse through the string and check if it is a vowel if it is, increment vowel and reset cononant to zero. If '?' is found, increment both vowel and consonant as it can
+/*Traverse through the string and check if it is a vowel if it is, increment vowel and reset consonant to zero. If '?' is found, increment both vowel and consonant as it can
 be treated as both and finally increment only consonant and reset vowel if none of these is found. We reset because we need these characters consecutively. Finally return 0
 or return 1 according to the condition.*/
