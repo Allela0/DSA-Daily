@@ -34,7 +34,8 @@ public:
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int i = 0, j = 1;
+        int i = 0;//buy
+        int j = 1;//sell
         int maxP = 0;
         int size = prices.size();
         while (j < size){
@@ -52,4 +53,8 @@ public:
 };
 
 
-//Approach:
+/*Approach: Intialize two pointers i and j where i is the buying price and j is the selling price while j is still within bounds, calculate the profit and then
+update maxP if the calculated profit is greater than the initially assigned profit else update i with j as we found a lower price than out current buy day
+and increment j always*/
+//TC: O(N)
+//SC: O(1)
